@@ -21,7 +21,7 @@ const SelectedIcon = (selectedState) => {
 				icon = <i className="fas fa-hand-spock fa-5x"></i>;
 				break;
 			default:
-				icon = <i className="fas fa-hand-spock fa-5x"></i>;
+				icon = <i className="fas fa-gamepad fa-5x"></i>;
 				break;
 		}
 		return icon;
