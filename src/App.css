@@ -1,5 +1,3 @@
-/* @import url("https://fonts.googleapis.com/css?family=Handlee&display=swap"); */
-
 :root {
 	--primary-color: #0d47a1;
 	--dark-color: #424242;
@@ -15,10 +13,7 @@
 }
 
 body {
-	font-family: "Handlee", cursive;
 	line-height: 1.6;
-	background: var(--light-color);
-	color: var(--dark-color);
 }
 
 .container {
@@ -98,18 +93,6 @@ body {
 	color: var(--primary-color);
 }
 
-.text-win {
-	color: var(--win-color);
-}
-
-.text-lose {
-	color: var(--lose-color);
-}
-
-.rules {
-	margin-top: 8rem;
-}
-
 .displayBlock {
 	display: block;
 	background: var(--dark-color);
@@ -139,63 +122,10 @@ body {
 	.choice {
 		font-size: 80px;
 	}
-	.rules {
-		margin-top: 4rem;
-	}
 }
 
 @media (max-width: 500px) {
 	.choice {
 		font-size: 40px;
-	}
-	.rules {
-		margin-top: 2rem;
-	}
-}
-
-:root {
-	--modal-duration: 1s;
-}
-
-.modal {
-	display: none;
-	position: fixed;
-	z-index: 1;
-	left: 0;
-	top: 0;
-	height: 100%;
-	width: 100%;
-	overflow: auto;
-	background: rgba(0, 0, 0, 0.5);
-}
-
-.modal-content {
-	background: #fff;
-	text-align: center;
-	margin: 10px auto;
-	width: 350px;
-	border-radius: 10px;
-	padding: 3rem;
-	box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
-	animation-name: modalOpen;
-	animation-duration: var(--modal-duration);
-}
-
-.modal-content h1 {
-	margin-bottom: 1rem;
-}
-
-.modal-content p {
-	font-size: 1.2rem;
-	margin-top: 1rem;
-}
-
-@keyframes modalOpen {
-	from {
-		opacity: 0;
-	}
-
-	to {
-		opacity: 1;
 	}
 }
